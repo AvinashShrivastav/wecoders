@@ -1,0 +1,105 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    background: linear-gradient(45DEG,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D);
+}
+#loginpage {
+    height: 400px;
+    width: 260px;
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 5px ;
+
+}
+#loginpage #imagebox {
+    box-sizing: border-box;
+    height: 30%; 
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imagebox img {
+    height: 50%;
+    width: 80%;
+    transition: 1s;
+
+}
+#imagebox img:hover{
+    height: 52%;
+    width: 84%;
+
+
+}
+#loginpage #formbox{
+
+    height: 55%; 
+    width: 100%;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#loginpage #signupbox{
+
+    height: 15%; 
+    width: 100%;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#loginpage:hover {
+    box-shadow: 0px 0px 50px -5px white;
+
+}
+#loginpage #signupbox #signup{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    width: 80%;
+}
+#loginpage #signupbox #signup p{
+    font-size: smaller;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#loginpage #signupbox #signup span{
+    color: #405DE6;
+    font-weight: bold;
+}
+#loginpage #formbox input {
+    padding-left: 10px;
+    margin-bottom: 15%;
+    height: 13%;
+    width: 70%;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+#loginpage #formbox button {
+    width: 70%;
+    height: 13%;
+    border-radius: 50px;
+    border: none;
+    background: rgba(57, 124, 225, 0.826);
+    color: white;
+    transition: 0.5s;
+}
+#loginpage #formbox button:hover {
+    background: #405DE6;
+}
