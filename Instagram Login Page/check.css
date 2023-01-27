@@ -1,0 +1,23 @@
+/* Define the gradient background */
+body {
+    background: linear-gradient(to right, #ff0000, #ffff00);
+  }
+  
+  /* Add the animation */
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Apply the animation to the background */
+  body {
+    animation: gradient 10s ease-in-out infinite;
+  }
+  
